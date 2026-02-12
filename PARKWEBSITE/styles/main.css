@@ -179,7 +179,11 @@ footer{
 .hidden-on-sm{
   display: block;
 }
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
