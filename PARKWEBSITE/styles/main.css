@@ -161,8 +161,10 @@ button:hover{
   height: 64px;
 }
 
-/* .sidy-by-side{
-} */
+.sidy-by-side{
+  display: flex;
+  justify-content: space-between;
+}
 
 .description{
   flex: 1;
