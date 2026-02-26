@@ -313,7 +313,7 @@ body{
 }
 
 /* Product layout */
-.product{
+.product2{
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--content-gap);
@@ -321,11 +321,11 @@ body{
 }
 
 /* Product image */
-.product-image{
+.product2-image{
   display:flex;
   justify-content:center;
 }
-.product-image img{
+.product2-image img{
   width: 90%;
   max-width: 420px;
   border-radius: 6px;
@@ -335,7 +335,7 @@ body{
 }
 
 /* Product info */
-.product{
+.product2{
   background-color: #FCFCFC;
 }
 .title-row{
