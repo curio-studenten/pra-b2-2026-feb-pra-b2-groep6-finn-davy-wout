@@ -335,6 +335,9 @@ body{
 }
 
 /* Product info */
+.product{
+  background-color: #FCFCFC;
+}
 .title-row{
   display:flex;
   align-items:center;
@@ -353,6 +356,7 @@ body{
   font-size:20px;
   font-weight:700;
   color:#0b2e1a;
+  
 }
 .lead{
   margin:12px 0 6px;
@@ -411,4 +415,3 @@ body{
   .site-footer{ padding:18px 10px; }
   .btn-cta{ width:100%; text-align:center; padding:12px; }
 }
-a
