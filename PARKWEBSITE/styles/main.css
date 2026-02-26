@@ -415,3 +415,24 @@ body{
   .site-footer{ padding:18px 10px; }
   .btn-cta{ width:100%; text-align:center; padding:12px; }
 }
+
+
+/* Desktop (standaard, groter dan 480px) */
+.logo-hidden-on-sm {
+  display: block;   /* groot logo zichtbaar */
+}
+
+.hidden-on-lg {
+  display: none;    /* h1 verborgen */
+}
+
+/* Mobiel (480px of kleiner) */
+@media (max-width: 480px) {
+  .logo-hidden-on-sm {
+    display: none;  /* groot logo verbergen */
+  }
+
+  .hidden-on-lg {
+    display: block; /* h1 zichtbaar */
+  }
+}
